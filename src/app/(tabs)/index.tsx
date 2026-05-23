@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { Plus, ShieldCheck, CalendarDays, ReceiptText } from "lucide-react-native";
 import AddPurchaseModal from "../../components/AddPurchaseModal";
-import { useBudgetStore } from "../../store/budgetstore";
+import { useBudgetStore } from "../../store/budgetStore";
 
 function money(value: number) {
   return value.toLocaleString("en-US", {

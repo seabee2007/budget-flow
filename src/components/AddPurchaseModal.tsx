@@ -8,7 +8,7 @@ import {
   StyleSheet,
 } from "react-native";
 import { X } from "lucide-react-native";
-import { useBudgetStore } from "../store/budgetstore";
+import { useBudgetStore } from "../store/budgetStore";
 
 type Props = {
   visible: boolean;
